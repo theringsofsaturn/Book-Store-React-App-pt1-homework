@@ -8,7 +8,7 @@ import scifi from "../data/scifi.json";
 export default function LatestRelease() {
   return (
     <div className="d-flex flex-wrap">
-      {fantasy.map((book) => {
+      {history.map((book) => {
         return <img className="book-cover" src={book.img} />;
       })}
     </div>
